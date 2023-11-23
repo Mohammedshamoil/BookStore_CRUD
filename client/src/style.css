@@ -1,0 +1,110 @@
+.App{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+
+}
+.books{
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+p{
+  font-size: 24px;
+  font-family: poppins;
+}
+
+span{
+    font-size: 24px;
+}
+
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(180, 252, 228);
+
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: rgb(138, 75, 221);
+    cursor: pointer;
+    border: 1px solid  rgb(138, 75, 221);
+    color: rgb(244, 238, 238);
+    border-radius: 5px;
+    font-style: italic;
+
+
+}
+
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: rgb(185, 101, 101);
+    cursor: pointer;
+    border: 1px solid  rgb(185, 101, 101);
+    color: rgb(23, 47, 64);
+    text-decoration: none;
+    border-radius: 5px;
+    font-style: italic;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 100px;
+
+}
+
+.formBtn{
+    border-radius: 100px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(244, 142, 74);
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.addnewbtn {
+
+    border: none;
+    margin-top: 60px;
+    padding: 3px 6px;
+    background-color: rgb(242, 142, 66);
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(245, 243, 243);
+    border-radius: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 243, 243);
+
+}
